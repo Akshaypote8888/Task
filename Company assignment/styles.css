@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    background-image: url(./image5.jpeg);
+    background-position-y: center ;
+    background-size: cover;
+    padding: 30px 50px 20px 50px;
+}
+#images{
+    border: 0px;
+    border-radius: 4px;
+}
+.image2{
+    margin: 20px;
+    border: 2px solid black;
+}
+
+
+#second_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    padding: 30px 50px 20px 50px;
+}
+
+#heading {
+    background-color: rgb(255, 183, 0);
+    padding: 10px 50px 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(91, 80, 0);
+    border: 0;
+    border-radius: 10px;
+    
+}
+
+#sub_heading{
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 50px 10px 50px;
+    background-color: bisque;
+    border-radius: 8px;
+}
+
+
+#nav_bar {
+    background-color: rgb(255, 183, 0);
+    width: 100%;
+    padding: 8px 0px 8px 0px ;
+    border: 0;
+    border-radius: 8px;
+}
+
+
+#nav{
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+#home{
+    color: white;
+    padding: 4px 6px 4px 6px;
+    text-shadow: 2px 2px 3px rgb(120, 79, 3);
+    text-decoration: none;
+}
+
+#home1 {
+    color: black;
+    padding: 4px 6px 4px 6px;
+    text-decoration: none;
+}
+#about {
+    color: black;
+    padding: 4px 6px 4px 6px;
+    text-decoration: none;
+}
+#about1{
+    color: white;
+    padding: 4px 6px 4px 6px;
+    text-shadow: 2px 2px 3px rgb(120, 79, 3);
+    text-decoration: none;
+}
+#contact1{
+    color: white;
+    padding: 4px 6px 4px 6px;
+    text-shadow: 2px 2px 3px rgb(120, 79, 3);
+    text-decoration: none;
+}
+#contact {
+    color: black;
+    padding: 4px 6px 4px 6px;
+    text-decoration: none;
+}
+#about:hover,#contact:hover,#home1:hover {
+    color: white;
+    text-shadow: 2px 2px 3px rgb(120, 79, 3);
+    padding: 4px 6px 4px 6px;
+    text-decoration: none;
+}
+
+#info{
+    display: flex;
+    gap: 40px;
+}
+
+#highlights{
+    width: 450px;
+    text-align: justify;
+    border: 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 1px 10px 0.5px rgb(118, 103, 72);
+    background-color: rgb(233, 231, 226);
+}
+
+#sub_headind1{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#list_heading{
+    font-size: 20px;
+    line-height: 40px;
+}
+.list{
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#para{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+    font-size: 18px;
+    padding: 20px 50px 50px 50px;
+    line-height: 30px;
+}
+
+#image1{
+    width: 1239px;
+}
+
+#cards{
+    display: flex;
+    gap: 40px;
+    width: 1120px;
+    padding: 50px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 200px;
+    text-align:left;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 10px 0.5px rgb(118, 103, 72);
+    background-color: rgb(233, 231, 226);
+}
+.profile{
+    font-size: 17px;
+    margin-left: 10px;
+    text-align:left;
+    padding: 16px;
+    line-height: 30px;
+}
+
+.photo{
+    width: 80px;
+    height: 80px;
+}
+
+#contact_form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 540px;
+    text-align: left;
+    border: 0 px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0.5px rgb(118, 103, 72);
+    background-color: rgb(233, 231, 226);
+    padding: 10px;
+}
+
+#heading3{
+    padding: 20px;
+}
+
+
+#contact_form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 100px;
+    text-align: left;
+    border: 0 px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0.5px rgb(118, 103, 72);
+    background-color: rgb(233, 231, 226);
+    padding: 10px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+#name,#email,#mobile,#message_field,#address{
+    font-size: 18px;
+    margin: 5px 0px 5px 0px;
+}
+#name1,#email1,#mob_no,#address1{
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+#message_field1{
+    height: 100px;
+    width: 450px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+#button{
+    display: flex;
+    justify-content: right;
+}
+
+#submit_button{
+    width: 100px;
+    padding: 10px 20px 10px 20px;
+    margin: 15px 0px 15px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+#submit_button:hover{
+    width: 100px;
+    padding: 10px 20px 10px 20px;
+    margin: 15px 0px 15px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(219, 101, 5);
+}
+
+
+
